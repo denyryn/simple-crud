@@ -44,6 +44,27 @@ http://127.0.0.1:8000
 
 ---
 
+## 🔗 API Endpoints Sample
+
+### Authentication
+
+* **Login**: `POST /api/auth/login`
+
+  * Parameters: `email`, `password`
+
+* **Register**: `POST /api/auth/register`
+
+  * Parameters: `email`, `password`, `password_confirmation`
+
+### Products
+
+* **Products Resource**: `/api/products`
+
+  * Fields: `id`, `name`, `description`, `image_url`, `price`
+  * Standard CRUD operations available (GET, POST, PUT/PATCH, DELETE)
+
+---
+
 ## ⚙️ Requirements
 
 * PHP >= 8.0
